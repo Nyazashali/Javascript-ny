@@ -1,6 +1,6 @@
 # JavaScript Interview Questions And Answers - All Levels
 
-### Question 1. What is programming language?
+### Question 1. What is programming language ?
 
 A programming language is a formal language used to communicate instructions to a computer or other machine, such as creating software applications, automating tasks, or controlling electronic devices. It consists of a set of rules, symbols, and syntax that allow programmers to write code in a specific format that can be executed by a computer. Common examples of programming languages include Java, Python, C++, and JavaScript.
 
@@ -14,7 +14,7 @@ Back-end refers to the part of a website or software application that is respons
 
 ### Question 4. What is HTML?
 
-HTML (Hypertext Markup Language) is a standard markup language used to create web pages and applications for displaying content on the internet. It consists of a set of tags that define the structure, content, and layout of a web page.
+HTML (Hypertext Markup Language) is a standard markup language. it used to create web pages and applications for displaying content on the internet. It consists of a set of tags that define the structure, content, and layout of a web page.
 
 ### Question 5. What is CSS?
 
