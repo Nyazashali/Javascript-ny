@@ -13,42 +13,43 @@ Provides a way to define and run custom scripts (e.g., starting a server, runnin
 Publishing Packages:
 
 Developers can create their own libraries and publish them to the NPM registry for others to use.
-Global and Local Installation:
 
+Global and Local Installation:
 Global installation: Installs tools globally on your system, accessible from any project.
 Local installation: Installs dependencies specific to a project.
 Basic Commands:
-Initialize a Project:
 
+Initialize a Project:
 bash
-Copy code
+
 npm init
 Creates a package.json file to manage project metadata and dependencies.
 
 Install a Package:
 
 bash
-Copy code
+
 npm install <package-name>
 Installs a package and adds it to the node_modules folder.
 
 Install a Package Globally:
 
 bash
-Copy code
+
 npm install -g <package-name>
 Installs a package system-wide.
 
 Remove a Package:
 
 bash
-Copy code
+
 npm uninstall <package-name>
 Update a Package:
 
 bash
-Copy code
+
 npm update <package-name>
+
 Why Use NPM?
 Streamlined Workflow: Automates installation and management of libraries and their versions.
 Huge Ecosystem: Access to over a million packages for every use case, from UI frameworks to backend utilities.
