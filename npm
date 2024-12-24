@@ -1,0 +1,55 @@
+NPM (Node Package Manager) is a powerful tool included with Node.js that helps developers manage dependencies (libraries, packages, or modules) for their JavaScript projects. It is the largest software registry in the world and plays a central role in JavaScript development.
+
+Key Features of NPM:
+Package Management:
+
+Allows developers to install, update, and manage third-party JavaScript libraries and tools easily.
+Dependency Management:
+
+Automatically resolves and installs dependencies for a project, ensuring everything works seamlessly.
+Script Execution:
+
+Provides a way to define and run custom scripts (e.g., starting a server, running tests) using npm run.
+Publishing Packages:
+
+Developers can create their own libraries and publish them to the NPM registry for others to use.
+Global and Local Installation:
+
+Global installation: Installs tools globally on your system, accessible from any project.
+Local installation: Installs dependencies specific to a project.
+Basic Commands:
+Initialize a Project:
+
+bash
+Copy code
+npm init
+Creates a package.json file to manage project metadata and dependencies.
+
+Install a Package:
+
+bash
+Copy code
+npm install <package-name>
+Installs a package and adds it to the node_modules folder.
+
+Install a Package Globally:
+
+bash
+Copy code
+npm install -g <package-name>
+Installs a package system-wide.
+
+Remove a Package:
+
+bash
+Copy code
+npm uninstall <package-name>
+Update a Package:
+
+bash
+Copy code
+npm update <package-name>
+Why Use NPM?
+Streamlined Workflow: Automates installation and management of libraries and their versions.
+Huge Ecosystem: Access to over a million packages for every use case, from UI frameworks to backend utilities.
+Collaboration: Standardizes project setup across teams and environments.
