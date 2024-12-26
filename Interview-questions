@@ -1,14 +1,14 @@
 ### JavaScript Interview Questions And Answers - All Levels ###
 
-### Question 1. What is programming language ?
+# Question 1. What is programming language ?
 
 A programming language is a formal language used to communicate instructions to a computer or other machine, such as creating software applications, automating tasks, or controlling electronic devices. It consists of a set of rules, symbols, and syntax that allow programmers to write code in a specific format that can be executed by a computer. Common examples of programming languages include Java, Python, C++, and JavaScript.
 
-### Question 2. What is front-end?
+# Question 2. What is front-end?
 
 Front-end refers to the part of a software or website that is visible to and interacted with by users. It involves the use of programming languages such as HTML, CSS, and JavaScript to create the user interface and enable user interaction.
 
-### Question 3. What is back-end?
+# Question 3. What is back-end?
 
 Back-end refers to the part of a website or software application that is responsible for data storage, processing, and management. It typically includes the server, database, and application logic that work together to support the front-end user interface and functionality.
 
