@@ -94,7 +94,7 @@ JavaScript code can be written in various places, including:
 
 Client-side JavaScript runs in a user's web browser and is used to create interactive effects and manipulate page content dynamically. Server-side JavaScript runs on the server and is used for backend tasks such as handling requests, interacting with databases, and processing data before it is sent to the client.
 
-### Question 16. Explain all the JavaScript features in detail?
+# Question 16. Explain all the JavaScript features in detail?
 
 JavaScript is a powerful programming language that is primarily used for creating interactive web applications. It has evolved over the years, and many new features have been added to it with each new version. Here are some of the key features of JavaScript:
 
@@ -120,23 +120,23 @@ JavaScript is a powerful programming language that is primarily used for creatin
 
 These are just some of the key features of JavaScript. There are many more, including classes, generators, and iterators, that make it a popular and powerful language for building modern web applications.
 
-### Question 17. Is Javascript a statically typed or a dynamically typed language?
+# Question 17. Is Javascript a statically typed or a dynamically typed language?
 
 JavaScript is a dynamically typed language.
 
-### Question 18. What is Single Threaded?
+# Question 18. What is Single Threaded?
 
 Single threaded refers to a programming model or environment in which only one set of instructions can be executed at a time. This means that the program can only execute one task or operation at a time, and must complete it before moving on to the next one. Single-threaded programs are generally simpler and easier to reason about than multi-threaded programs, but they may not take full advantage of modern hardware with multiple cores and processors.
 
-### Question 19. What is Non-Blocking Event Loop?
+# Question 19. What is Non-Blocking Event Loop?
 
 A non-blocking event loop is a programming pattern used in software applications to handle multiple requests and events simultaneously without blocking the application's main thread. It works by continuously checking for new events and executing their associated callbacks in a loop, allowing the application to remain responsive to other events and requests while processing each event in an asynchronous manner. This approach is commonly used in web servers, network programming, and graphical user interfaces (GUIs).
 
-### Question 20. What is value and variable?
+# Question 20. What is value and variable?
 
 A value is a specific piece of data, such as a number or text string. A variable is a named storage location in a program that can hold a value, which can be changed during the execution of the program. In other words, a variable is used to represent a value that may vary throughout the program.
 
-### Question 21. What are rules of defining a variable?
+# Question 21. What are rules of defining a variable?
 
 The rules for defining a variable depend on the programming language being used, but in general, some common rules include:
 
@@ -148,11 +148,11 @@ The rules for defining a variable depend on the programming language being used,
 
 It's important to follow the correct syntax and rules when defining variables as it can affect the functionality of the program.
 
-### Question 22. What is data type?
+# Question 22. What is data type?
 
 In computer programming, a data type is an attribute of a variable or value that determines the type of data it can hold, such as integers, floating-point numbers, characters, and booleans. Data types help ensure that operations are performed correctly on variables and values, and they allow the compiler or interpreter to allocate the appropriate amount of memory for a particular data object.
 
-### Question 23. What are the different types of data types in javascript?
+# Question 23. What are the different types of data types in javascript?
 
 There are six primitive data types in JavaScript:
 
@@ -168,7 +168,7 @@ And two non-primitive data types:
 1. object
 2. function
 
-### Question 24. What is Symbol ?
+# Question 24. What is Symbol ?
 
 In JavaScript, a symbol is a primitive data type that is used to create unique values. It is often used as an identifier for object properties to avoid naming conflicts. Symbols are created using the `Symbol()` function and can be used as keys in object literals or added as properties to objects.
 
