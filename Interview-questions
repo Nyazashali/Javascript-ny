@@ -32,7 +32,7 @@ Java is a general-purpose programming language that is commonly used for enterpr
 
 Yes, JavaScript is a case-sensitive language, meaning that uppercase and lowercase letters are considered different characters and can affect the behavior of code. For example, "myVariable" and "myvariable" would be treated as two separate variables in JavaScript.
 
-### Question 9. Tell us about role of HTML, CSS, and JavaScript?
+# Question 9. Tell us about role of HTML, CSS, and JavaScript?
 
 HTML, CSS, and JavaScript are three essential technologies used to create websites and web applications.
 
@@ -44,7 +44,7 @@ JavaScript is a programming language used to add interactivity and behavior to w
 
 Together, HTML, CSS, and JavaScript form the backbone of the modern web, enabling millions of websites and web applications to exist and function in a consistent, accessible, and interactive manner.
 
-### Question 10. Tell us about the history of JavaScript?
+# Question 10. Tell us about the history of JavaScript?
 
 JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. Originally named Mocha, then changed to LiveScript, and finally to JavaScript for marketing reasons, it was designed to add interactivity to static HTML pages.
 
@@ -52,11 +52,11 @@ JavaScript quickly gained popularity due to its ability to manipulate the Docume
 
 Today, JavaScript is used not only for client-side web development but also for server-side development with technologies such as Node.js. It has become one of the most widely used programming languages in the world, powering everything from small scripts to large-scale applications across a wide range of industries.
 
-### Question 11. What is ECMAScript and how is it related to JavaScript?
+# Question 11. What is ECMAScript and how is it related to JavaScript?
 
 ECMAScript is a scripting language specification standardized by Ecma International. JavaScript is a programming language that implements the ECMAScript specification. In other words, JavaScript is an implementation of ECMAScript.
 
-### Question 12. What are the different versions of JavaScript?
+# Question 12. What are the different versions of JavaScript?
 
 The official name of JavaScript is ECMAScript, and there have been several versions released over the years. The major versions are:
 
@@ -73,11 +73,11 @@ The official name of JavaScript is ECMAScript, and there have been several versi
 - ECMAScript 11 (2020), also known as ES2020
 - ECMAScript 12 (2021), also known as ES2021
 
-### Question 13. What is Es5 and Es6?
+# Question 13. What is Es5 and Es6?
 
 ES5 (ECMAScript 5) and ES6 (ECMAScript 2015) are versions of the ECMAScript programming language. ES5 was released in 2009 and is widely supported by all major browsers, while ES6 introduced new features and syntax to the language in 2015, such as arrow functions, classes, and template literals. While not all browsers support all features of ES6, it has become the de facto standard for JavaScript development.
 
-### Question 14. What are the different places where we can write JavaScript code?
+# Question 14. What are the different places where we can write JavaScript code?
 
 JavaScript code can be written in various places, including:
 
@@ -90,7 +90,7 @@ JavaScript code can be written in various places, including:
 7. IoT devices - using platforms like Raspberry Pi, Arduino, and Tessel.
 8. Cloud Functions - services offered by cloud providers like AWS Lambda, Google Cloud Functions, and Microsoft Azure Functions.
 
-### Question 15. Difference between client side and server side JavaScript?
+# Question 15. Difference between client side and server side JavaScript?
 
 Client-side JavaScript runs in a user's web browser and is used to create interactive effects and manipulate page content dynamically. Server-side JavaScript runs on the server and is used for backend tasks such as handling requests, interacting with databases, and processing data before it is sent to the client.
 
