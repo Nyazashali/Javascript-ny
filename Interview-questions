@@ -90,6 +90,13 @@ JavaScript code can be written in various places, including:
 7. IoT devices - using platforms like Raspberry Pi, Arduino, and Tessel.
 8. Cloud Functions - services offered by cloud providers like AWS Lambda, Google Cloud Functions, and Microsoft Azure Functions.
 
+##. Arithmetic Operations:
+ console.log(5 + 3); // Addition
+ console.log(10 - 2); // Subtraction
+ console.log(4 * 2); // Multiplication
+ console.log(8 / 2); // Division
+ console.log(7 % 3); // Remainder
+
 # Question 15. Difference between client side and server side JavaScript?
 
 Client-side JavaScript runs in a user's web browser and is used to create interactive effects and manipulate page content dynamically. Server-side JavaScript runs on the server and is used for backend tasks such as handling requests, interacting with databases, and processing data before it is sent to the client.
