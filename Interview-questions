@@ -234,15 +234,15 @@ In non-strict mode, JavaScript allows more flexible syntax and behaviors. Some o
 
 Overall, non-strict mode is less restrictive, but also more prone to unexpected behavior and errors. It's generally recommended to use strict mode for more predictable and robust code.
 
-### Question 33. What is a statement in programming?
+# Question 33. What is a statement in programming?
 
 In programming, a statement is a single instruction or action that is executed by the computer. It can be a simple assignment of a value to a variable, a conditional expression, a loop, or a function call. Statements are typically written in a specific syntax or programming language and are used to create programs that perform specific tasks or operations.
 
-### Question 34. How to write a single line of statement?
+# Question 34. How to write a single line of statement?
 
 To write a single line of statement, simply express your idea or message in a clear and concise manner using as few words as possible while retaining its meaning. Avoid using overly complex language or unnecessary details that may confuse the reader.
 
-### Question 35. How to write a multi-line statement?
+# Question 35. How to write a multi-line statement?
 
 In most programming languages, a multi-line statement can be achieved by using a backslash "\" at the end of each line to indicate that the current line continues on the next line. Alternatively, some languages may allow the use of parentheses or brackets to enclose the statement and break it into multiple lines.
 
