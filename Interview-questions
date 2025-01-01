@@ -311,11 +311,11 @@ In JavaScript, `let`, `const`, and `var` are used to declare variables, but they
 
 Overall, it's recommended to use `const` whenever possible to avoid accidental reassignment and to use `let` when you need to declare a mutable variable with block-level scope. Use `var` only when you specifically need its hoisting behavior or function-level scope.
 
-### Question 39. When to use let, const and var ?
+# Question 39. When to use let, const and var ?
 
 Use `let` to declare variables that are intended to be reassigned later on in your code. Use `const` to declare read-only variables whose value should not be changed after initialization. Use `var` to declare variables in the global scope or function scope, but avoid using it in favor of `let` and `const` as it has some quirks and can lead to unexpected behavior.
 
-### Question 40. What is ++, -- operators ?
+# Question 40. What is ++, -- operators ?
 
 In JavaScript, the "++" and "--" operators are used to increment or decrement a variable by 1. The "++" operator adds 1 to the value of a variable, while the "--" operator subtracts 1 from the value of a variable. These operators can be used before (prefix) or after (postfix) the variable name, and they have different effects on the expression in which they are used.
 
