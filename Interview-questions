@@ -1,39 +1,30 @@
 ### JavaScript Interview Questions And Answers - All Levels ###
 
 # Question 1. What is programming language ?
-
 A programming language is a formal language used to communicate instructions to a computer or other machine, such as creating software applications, automating tasks, or controlling electronic devices. It consists of a set of rules, symbols, and syntax that allow programmers to write code in a specific format that can be executed by a computer. Common examples of programming languages include Java, Python, C++, and JavaScript.
 
 # Question 2. What is front-end?
-
 Front-end refers to the part of a software or website that is visible to and interacted with by users. It involves the use of programming languages such as HTML, CSS, and JavaScript to create the user interface and enable user interaction.
 
 # Question 3. What is back-end?
-
 Back-end refers to the part of a website or software application that is responsible for data storage, processing, and management. It typically includes the server, database, and application logic that work together to support the front-end user interface and functionality.
 
 # Question 4. What is HTML?
-
 HTML (Hypertext Markup Language) is a standard markup language. it used to create web pages and applications for displaying content on the internet. It consists of a set of tags that define the structure, content, and layout of a web page.
 
 # Question 5. What is CSS?
-
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and layout of HTML documents, including fonts, colors, spacing, and other visual elements.
 
 # Question 6. What is JavaScript?
-
 JavaScript is a programming language used primarily for creating interactive web pages and web applications. It is often referred to as the "language of the web" because it can be executed in a web browser without the need for additional software or plugins. JavaScript is also used on the server-side with frameworks such as Node.js, allowing for full-stack development.
 
 # Question 7. Difference between Java and JavaScript?
-
 Java is a general-purpose programming language that is commonly used for enterprise-level applications, while JavaScript is a scripting language primarily used for web development. Java code is compiled to bytecode and executed on a virtual machine, while JavaScript code is interpreted by the browser's JavaScript engine. Additionally, Java has strong typing and requires explicit declaration of data types, whereas JavaScript is weakly typed and does not require explicit type declarations.
 
 # Question 8. Is JavaScript a case-sensitive language?
-
 Yes, JavaScript is a case-sensitive language, meaning that uppercase and lowercase letters are considered different characters and can affect the behavior of code. For example, "myVariable" and "myvariable" would be treated as two separate variables in JavaScript.
 
 # Question 9. Tell us about role of HTML, CSS, and JavaScript?
-
 HTML, CSS, and JavaScript are three essential technologies used to create websites and web applications.
 
 HTML (Hypertext Markup Language) is used to structure the content of a webpage. It provides a standard set of tags that define the different elements on a page such as headings, paragraphs, images, links, forms, and more.
@@ -45,7 +36,6 @@ JavaScript is a programming language used to add interactivity and behavior to w
 Together, HTML, CSS, and JavaScript form the backbone of the modern web, enabling millions of websites and web applications to exist and function in a consistent, accessible, and interactive manner.
 
 # Question 10. Tell us about the history of JavaScript?
-
 JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. Originally named Mocha, then changed to LiveScript, and finally to JavaScript for marketing reasons, it was designed to add interactivity to static HTML pages.
 
 JavaScript quickly gained popularity due to its ability to manipulate the Document Object Model (DOM) and provide dynamic functionality to web pages. In 1997, Microsoft released its own version of JavaScript called JScript, which led to standardization efforts by the European Computer Manufacturers Association (ECMA). This resulted in the first ECMAScript standard being published in 1997, and subsequent versions of the language continue to be defined by this organization.
