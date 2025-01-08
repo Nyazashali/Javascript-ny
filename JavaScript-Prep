@@ -1,0 +1,121 @@
+1. What is JavaScript, and how is it different from Java?
+Answer: JavaScript is a lightweight, interpreted programming language primarily used for adding interactivity to web pages.
+        Java is a compiled, object-oriented programming language used for building applications across platforms.
+Syntax :
+// JavaScript Example:
+console.log("Hello, JavaScript!");
+// Java Example:
+System.out.println("Hello, Java!");
+
+2. What are variables in JavaScript, and how do you declare them?
+Answer: Variables store data. Use var, let, or const.
+Syntax :
+var x = 10;  // Old way
+let y = 20;  // Modern, allows reassignment
+const z = 30; // Modern, immutable
+
+console.log(x, y, z);
+3. What are data types in JavaScript? Can you name a few examples?
+Answer:
+Data types include:
+
+Primitive: string, number, boolean, null, undefined, symbol, bigint.
+Non-primitive: object, array, function.
+javascript
+Copy code
+let a = "Hello";  // string
+let b = 42;       // number
+let c = true;     // boolean
+let d = null;     // null
+let e;            // undefined
+let f = { name: "John" };  // object
+
+console.log(typeof a, typeof b, typeof c);
+4. What is the purpose of console.log()?
+Answer:
+console.log() prints messages to the browser console, useful for debugging.
+
+javascript
+Copy code
+let name = "Alice";
+console.log("Hello, " + name);  // Output: Hello, Alice
+5. What are functions in JavaScript, and how do you define one?
+Answer:
+A function is a reusable block of code.
+
+javascript
+Copy code
+// Function Declaration
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+// Function Expression
+const add = function (a, b) {
+  return a + b;
+};
+
+console.log(greet("Alice")); // Output: Hello, Alice!
+console.log(add(2, 3));      // Output: 5
+6. What are arrays in JavaScript, and how do you add or remove elements?
+Answer:
+Arrays store lists of values.
+
+javascript
+Copy code
+let arr = [1, 2, 3];
+arr.push(4);     // Add 4 at the end
+arr.pop();       // Remove last element
+arr.unshift(0);  // Add 0 at the start
+arr.shift();     // Remove first element
+
+console.log(arr); // Output: [1, 2, 3]
+7. What is an object in JavaScript, and how does it differ from an array?
+Answer:
+An object stores key-value pairs; arrays store ordered lists.
+
+javascript
+Copy code
+// Object
+let obj = { name: "Alice", age: 25 };
+console.log(obj.name);  // Access property
+obj.age = 26;           // Modify property
+console.log(obj);
+
+// Array
+let arr = [1, 2, 3];
+console.log(arr[0]);    // Access first element
+8. What is the difference between == and ===?
+Answer:
+
+== compares values, allowing type coercion.
+=== compares both value and type.
+javascript
+Copy code
+console.log(5 == "5");  // true (type coercion)
+console.log(5 === "5"); // false (strict comparison)
+9. What is an event in JavaScript, and how do you handle events?
+Answer:
+Events are user actions like clicks. Use addEventListener() to handle them.
+
+javascript
+Copy code
+document.getElementById("btn").addEventListener("click", function () {
+  alert("Button clicked!");
+});
+HTML:
+
+html
+Copy code
+<button id="btn">Click Me</button>
+10. What is the DOM, and how does JavaScript interact with it?
+Answer:
+The DOM represents the structure of a web page. JavaScript can manipulate it.
+
+javascript
+Copy code
+// HTML: <p id="demo">Hello!</p>
+document.getElementById("demo").textContent = "Hello, JavaScript!";
+
+let element = document.querySelector("#demo");
+console.log(element.textContent); // Output: Hello, JavaScript!
