@@ -194,3 +194,7 @@ let button = document.getElementById("myButton");
 button.addEventListener("click", function () {
   alert("Button clicked!");
 });
+##Why is the DOM Important?
+Answer: Enables interactivity on web pages (e.g., form validation, animations).
+        Makes it possible to build dynamic and responsive web applications.
+        Forms the foundation for JavaScript frameworks like React, Angular, and Vue.js.
