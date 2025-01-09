@@ -131,9 +131,66 @@ HTML:
 <button id="btn">Click Me</button>
 
 10. What is the DOM, and how does JavaScript interact with it?
-Answer: The DOM represents the structure of a web page. JavaScript can manipulate it.
+Answer: The Document Object Model (DOM) is a programming interface for web documents.
+It represents the structure of a webpage as a hierarchical tree of objects, where every element in an HTML or XML document is modeled as a node.
+The DOM allows programming languages like JavaScript to interact with, modify, and control the content, structure, and styles of a webpage dynamically
+
+#JavaScript uses the document object to interact with the DOM.JavaScript interacts with the DOM:
+@. Accessing Elements
+JavaScript can select elements using various methods:
+By ID:
+
+Syntax:
+let title = document.getElementById("myTitle");
+console.log(title.textContent); // Outputs the text of the element with ID "myTitle"
+@. By Class Name:
+Syntax:
+let items = document.getElementsByClassName("list-item");
+console.log(items[0].textContent); // Accesses the first element with class "list-item"
+@. By Tag Name:
+Syntax:
+let paragraphs = document.getElementsByTagName("p");
+console.log(paragraphs[0].textContent); // Accesses the first <p> tag
+@. By CSS Selector:
 Syntax :
-// HTML: <p id="demo">Hello!</p>
-document.getElementById("demo").textContent = "Hello, JavaScript!";
-let element = document.querySelector("#demo");
-console.log(element.textContent); // Output: Hello, JavaScript!
+let header = document.querySelector("h1");
+let links = document.querySelectorAll(".link");
+
+2. Modifying Content
+You can dynamically change the content of elements:
+
+Change Text:
+Syntax
+let heading = document.getElementById("myHeading");
+heading.textContent = "Updated Heading!";
+
+Change HTML:
+Syntax:
+let container = document.getElementById("container");
+container.innerHTML = "<p>New paragraph content!</p>";
+
+3. Changing Styles
+You can modify CSS styles using the style property:
+Syntax:
+let box = document.getElementById("box");
+box.style.backgroundColor = "blue";
+box.style.color = "white";
+box.style.fontSize = "20px";
+4. Adding or Removing Elements
+Add Elements:
+Syntax:
+let list = document.getElementById("myList");
+let newItem = document.createElement("li");
+newItem.textContent = "New Item";
+list.appendChild(newItem);
+Remove Elements:
+Syntax:
+let itemToRemove = document.getElementById("oldItem");
+itemToRemove.remove();
+5. Handling Events
+JavaScript interacts with the DOM to respond to user actions through events.
+Syntax :
+let button = document.getElementById("myButton");
+button.addEventListener("click", function () {
+  alert("Button clicked!");
+});
