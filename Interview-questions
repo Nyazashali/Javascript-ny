@@ -10,10 +10,12 @@ Front-end refers to the part of a software or website that is visible to and int
 Back-end refers to the part of a website or software application that is responsible for data storage, processing, and management. It typically includes the server, database, and application logic that work together to support the front-end user interface and functionality.
 
 # Question 4. What is HTML?
-HTML (Hypertext Markup Language) is a standard markup language. it used to create web pages and applications for displaying content on the internet. It consists of a set of tags that define the structure, content, and layout of a web page.
+HTML (Hypertext Markup Language) is a standard markup language. it used to create web pages and applications for displaying content on the internet. 
+It consists of a set of tags that define the structure, content, and layout of a web page.
 
 # Question 5. What is CSS?
-CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and layout of HTML documents, including fonts, colors, spacing, and other visual elements.
+CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and layout of HTML documents,
+including fonts, colors, spacing, and other visual elements.
 
 # Question 6. What is JavaScript?
 JavaScript is a programming language used primarily for creating interactive web pages and web applications. 
@@ -21,7 +23,8 @@ It is often referred to as the "language of the web" because it can be executed 
 JavaScript is also used on the server-side with frameworks such as Node.js, allowing for full-stack development.
 
 # Question 7. Difference between Java and JavaScript?
-Java is a general-purpose programming language that is commonly used for enterprise-level applications, while JavaScript is a scripting language primarily used for web development. Java code is compiled to bytecode and executed on a virtual machine, while JavaScript code is interpreted by the browser's JavaScript engine. Additionally, Java has strong typing and requires explicit declaration of data types, whereas JavaScript is weakly typed and does not require explicit type declarations.
+Java is a general-purpose programming language that is commonly used for enterprise-level applications, while JavaScript is a scripting language primarily used for web development. 
+Java code is compiled to bytecode and executed on a virtual machine, while JavaScript code is interpreted by the browser's JavaScript engine. Additionally, Java has strong typing and requires explicit declaration of data types, whereas JavaScript is weakly typed and does not require explicit type declarations.
 
 # Question 8. Is JavaScript a case-sensitive language?
 Yes, JavaScript is a case-sensitive language, meaning that uppercase and lowercase letters are considered different characters and can affect the behavior of code. For example, "myVariable" and "myvariable" would be treated as two separate variables in JavaScript.
