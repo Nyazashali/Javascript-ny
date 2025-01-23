@@ -2861,4 +2861,14 @@ Transpiling in JavaScript means transforming code written in one version of the 
 
 ### Question 239. Difference between polyfilling and transpiling ?
 
-Polyfilling is adding new functionality to older browsers that don't support it natively, by defining the missing features using JavaScript code. Transpiling is converting modern JavaScript code into an older version of JavaScript that is compatible with older browsers. Polyfilling adds new features, while transpiling adjusts the syntax and structure of existing code to work in older environments.
+Polyfilling is adding new functionality to older browsers that don't support it natively, by defining the missing features using JavaScript code.
+Transpiling is converting modern JavaScript code into an older version of JavaScript that is compatible with older browsers. Polyfilling adds new features, while transpiling adjusts the syntax and structure of existing code to work in older environments.
+
+What is Single Threaded?
+Single threaded refers to a programming model or environment in which only one set of instructions can be executed at a time. This means that the program can only execute one task or operation at a time, 
+and must complete it before moving on to the next one. Single-threaded programs are generally simpler and easier to reason about than multi-threaded programs, 
+but they may not take full advantage of modern hardware with multiple cores and processors.
+
+What is ++, -- operators ?
+In JavaScript, the "++" and "--" operators are used to increment or decrement a variable by 1. The "++" operator adds 1 to the value of a variable, while the "--" operator subtracts 1 from the value of a variable. 
+These operators can be used before (prefix) or after (postfix) the variable name, and they have different effects on the expression in which they are used
