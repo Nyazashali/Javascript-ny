@@ -18,7 +18,7 @@ CSS stands for Cascading Style Sheets. It is a stylesheet language used to descr
 including fonts, colors, spacing, and other visual elements.
 
 # Question 6. What is JavaScript?
-JavaScript is a programming language used primarily for creating interactive web pages and web applications. 
+JavaScript is a high-level, interpreted programming language primarily used for creating interactive web pages and web applications. 
 It is often referred to as the "language of the web" because it can be executed in a web browser without the need for additional software or plugins. 
 JavaScript is also used on the server-side with frameworks such as Node.js, allowing for full-stack development.
 
